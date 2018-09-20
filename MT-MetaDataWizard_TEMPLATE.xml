@@ -1,0 +1,1172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--Record created using version 2.0.5 of the USGS Metadata Wizard tool. (https://github.com/usgs/fort-pymdwizard)-->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>{origin}</origin>
+        <pubdate>{pubdate}</pubdate>
+        <title>{title}</title>
+        <geoform>ASCII and Binary Digital Data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>{othercit}</othercit>
+        <onlink>{onlink}</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>{BeginOriginLoop}</origin>
+            <pubdate>{lworkcit-pubdate}</pubdate>
+            <title>{lworkcit-title}</title>
+            <geoform>PDF</geoform>
+            <serinfo>
+              <sername>{sername}</sername>
+              <issue>{issue}</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, CO</pubplace>
+              <publish>US Geologial Survey</publish>
+            </pubinfo>
+            <onlink>{lworkcit-onlink}</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>{abstract}</abstract>
+      <purpose>{purpose}</purpose>
+      <supplinf>{supplinf}
+{BeginFileListingHere}</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>{begdate}</begdate>
+          <enddate>{enddate}</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>{westbc}</westbc>
+        <eastbc>{eastbc}</eastbc>
+        <northbc>{northbc}</northbc>
+        <southbc>{southbc}</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>{BeginThemektNoneLoopHere}</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>{BeginThemektUsgsLoopHere}</themekey>
+      </theme>
+      <place>
+        <placekt>USGS Geographic Names Information System (GNIS)</placekt>
+        <placekey>{BeginPlacekeyGnisHere}</placekey>
+      </place>
+      <temporal>
+				<tempkt>None</tempkt>
+				<tempkey>Archean</tempkey>
+				<tempkey>Paleoproterozoic</tempkey>
+				<tempkey>Neoproterozoic</tempkey>
+				<tempkey>Paleozoic</tempkey>
+				<tempkey>Proterozoic</tempkey>
+			</temporal>
+    </keywords>
+    <accconst>Please see 'Distribution Info' for details.</accconst>
+    <useconst>There is no guarantee concerning the accuracy of the data. Any user who modifies the data is obligated to describe the types of modifications they perform. Data have been checked to ensure the accuracy. If any errors are detected, please notify the originating office. The U.S. Geological Survey strongly recommends that careful attention be paid to the metadata file associated with these data. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data. User specifically agrees not to misrepresent the data, nor to imply that changes made were approved or endorsed by the U.S. Geological Survey. Please refer to https://www2.usgs.gov/laws/privacy.html for the USGS disclaimer.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS - Crustal Geophysics and Geochemistry Science Center</cntorg>
+          <cntper>Brian D. Rodriguez</cntper>
+        </cntorgp>
+        <cntpos>Research Geophysicist</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Mail Stop 964, West 6th Ave. and Kipling St., DFC Bldg. 20</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225-0046</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-236-1361</cntvoice>
+        <cntemail>brod@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>{datacred}</datacred>
+    <native>MS-DOS version 6.22</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>MS-DOS version 6.22</attraccr>
+    </attracc>
+    <logic>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Spatial locations were determined from hand-held global positioning system (GPS) devices. In general, the GPS units used by field scientists recorded sample locations to within 100 feet (30 meters) of the true location. The locations were verified using a geographic information system (GIS) and digital topographic maps.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Elevations were determined from USGS, The National Map, Bulk Point Query Service based on the USGS 3DEP (3D elevation program) 1/3 arc-second layer (10-meter). Vertical accuracy was not assessed for this specific dataset. The overall absolute vertical accuracy of the seamless DEMs within the conterminous United States (2013), expressed as the root mean square error (RMSE) of 25,310 reference points, was 1.55 meters (USGS, 2014 -  http://dx.doi.org/10.3133/ofr20141008). The vertical accuracy varies across the U.S. as a result of differences in source DEM quality, terrain relief, land cover, and other factors.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Acquire multiple high frequency time series files (TS1 file extension) and convert to intermediate spectra cross power files (BP1 file extension)</procdesc>
+        <procdate>20030709</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Acquire multiple mid frequency time series files (TS2 file extension) and convert to intermediate spectra cross power files (BP2 file extension)</procdesc>
+        <procdate>20030709</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Acquire multiple low frequency time series files (TS3 file extension) and convert to intermediate spectra cross power files (BP3 file extension)</procdesc>
+        <procdate>20030709</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Combine multiple frequency band (high, mid, low) BP cross power files into a single cross power file (AVG file extension)</procdesc>
+        <procdate>19800104</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Convert cross power AVG file to spectra edi file</procdesc>
+        <procdate>20171010</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Rotate data and convert spectra edi file to GeotoolsMT Transfer Function dump file</procdesc>
+        <procdate>20171010</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Mine AVG, spectra edi, and dump file to create Transfer Function edi file</procdesc>
+        <procdate>20171023</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0196481178</latres>
+        <longres>0.0409100603</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>NAD27 CONUS</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File BF4-9710.RSP</enttypl>
+        <enttypd>System Calibration File</enttypd>
+        <enttypds>Electromagnetic Instruments (EMI)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Freq</attrlabl>
+        <attrdef>Frequency - Hz</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Frequency - Hz</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Amp</attrlabl>
+        <attrdef>Amplitude - Volts/Gamma</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Amplitude - Volts/Gamma</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phz</attrlabl>
+        <attrdef>Phase - Degrees</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase - Degrees</udom>
+				</attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File BF4-9705.RSP</enttypl>
+        <enttypd>System Calibration File</enttypd>
+        <enttypds>Electromagnetic Instruments (EMI)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Freq</attrlabl>
+        <attrdef>Frequency - Hz</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Frequency - Hz</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Amp</attrlabl>
+        <attrdef>Amplitude - Volts/Gamma</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Amplitude - Volts/Gamma</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phz</attrlabl>
+        <attrdef>Phase - Degrees</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase - Degrees</udom>
+				</attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File BF7-9609.RSP</enttypl>
+        <enttypd>System Calibration File</enttypd>
+        <enttypds>Electromagnetic Instruments (EMI)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Freq</attrlabl>
+        <attrdef>Frequency - Hz</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Frequency - Hz</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Amp</attrlabl>
+        <attrdef>Amplitude - Volts/Gamma</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Amplitude - Volts/Gamma</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phz</attrlabl>
+        <attrdef>Phase - Degrees</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase - Degrees</udom>
+				</attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File EF-9608X.RSP</enttypl>
+        <enttypd>System Calibration File listing 4 columns of amplitude and phase for each of the 4 possible instrument gains (10dB, 20dB, 30dB, 40dB)</enttypd>
+        <enttypds>Electromagnetic Instruments (EMI)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Freq</attrlabl>
+        <attrdef>Frequency - Hz</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Frequency - Hz</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Amp</attrlabl>
+        <attrdef>Amplitude - unitless. Amplitude is unique for each gain (10dB, 20dB, 30dB, 40dB).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Amplitude - unitless</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phz</attrlabl>
+        <attrdef>Phase - Degrees. Phase is unique for each sgain (10dB, 20dB, 30dB, 40dB).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase - Degrees</udom>
+				</attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File EF-9608Y.RSP</enttypl>
+        <enttypd>System Calibration File listing 4 columns of amplitude and phase for each of the 4 possible instrument gains (10dB, 20dB, 30dB, 40dB).</enttypd>
+        <enttypds>Electromagnetic Instruments (EMI)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Freq</attrlabl>
+        <attrdef>Frequency - Hz</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Frequency - Hz</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Amp</attrlabl>
+        <attrdef>Amplitude - unitless. Amplitude is unique for each gain (10dB, 20dB, 30dB, 40dB).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Amplitude - unitless</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phz</attrlabl>
+        <attrdef>Phase - Degrees. Phase is unique for each sgain (10dB, 20dB, 30dB, 40dB).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase - Degrees</udom>
+				</attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01.edi</enttypl>
+        <enttypd>Transfer Function EDI File</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FREQ</attrlabl>
+        <attrdef>Data block containing a set of frequencies in hertz (Hz.) It defines the frequency set for succeeding data within that data section which are functions of frequency.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Data block containing a set of frequencies in hertz (Hz.) It defines the frequency set for succeeding data within that data section which are functions of frequency.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZROT</attrlabl>
+        <attrdef>Data block containing a set of rotation angles in degrees used for impedances.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Data block containing a set of rotation angles in degrees used for impedances.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZXXR</attrlabl>
+        <attrdef>Real component of impedance Zxx in ohm-m (Ex / Hx)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Real component of impedance Zxx in ohm-m (Ex / Hx)</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZXXI</attrlabl>
+        <attrdef>Imaginary component of impedance Zxx in ohm-m (Ex / Hx)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Imaginary component of impedance Zxx in ohm-m (Ex / Hx)</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZXX.VAR</attrlabl>
+        <attrdef>Variance of real and imaginary impedance of Zxx in ohm-m</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Variance of real and imaginary impedance of Zxx in ohm-m</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZXYR</attrlabl>
+        <attrdef>Real component of impedance Zxy in ohm-m (Ex / Hy )</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Real component of impedance Zxy in ohm-m (Ex / Hy )</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZXYI</attrlabl>
+        <attrdef>Imaginary component of impedance Zxy in ohm-m (Ex / Hy )</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Imaginary component of impedance Zxy in ohm-m (Ex / Hy )</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZXY.VAR</attrlabl>
+        <attrdef>Variance of real and imaginary impedance of Zxy in ohm-m</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Variance of real and imaginary impedance of Zxy in ohm-m</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZYXR</attrlabl>
+        <attrdef>Real component of impedance Zyx in ohm-m (Ey / Hx )</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Real component of impedance Zyx in ohm-m (Ey / Hx )</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZYXI</attrlabl>
+        <attrdef>Imaginary component of impedance Zyx in ohm-m (Ey / Hx )</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Imaginary component of impedance Zyx in ohm-m (Ey / Hx )</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZYX.VAR</attrlabl>
+        <attrdef>Variance of real and imaginary impedance of Zyx in ohm-m</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Variance of real and imaginary impedance of Zyx in ohm-m</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZYYR</attrlabl>
+        <attrdef>Real component of impedance Zyy in ohm-m ( Ey / Hy )</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Real component of impedance Zyy in ohm-m ( Ey / Hy )</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZYYI</attrlabl>
+        <attrdef>Imaginary component of impedance Zyy in ohm-m (Ey / Hy )</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Imaginary component of impedance Zyy in ohm-m (Ey / Hy )</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZYY.VAR</attrlabl>
+        <attrdef>Variance of real and imaginary impedance of Zyy in ohm-m</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Variance of real and imaginary impedance of Zyy in ohm-m</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TXR.EXP</attrlabl>
+        <attrdef>Real part of complex tipper component Tx.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Real part of complex tipper component Tx.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TXI.EXP</attrlabl>
+        <attrdef>Imaginary part of complex tipper component Tx.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Imaginary part of complex tipper component Tx.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TXVAR.EXP</attrlabl>
+        <attrdef>Variance of complex tipper component Tx.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Variance of complex tipper component Tx.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYR.EXP</attrlabl>
+        <attrdef>Real part of complex tipper component Ty.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Real part of complex tipper component Ty.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYI.EXP</attrlabl>
+        <attrdef>Imaginary part of complex tipper component Ty.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Imaginary part of complex tipper component Ty.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYVAR.EXP</attrlabl>
+        <attrdef>Variance of complex tipper component Ty.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Variance of complex tipper component Ty.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOROT</attrlabl>
+        <attrdef>Data block containing a set of rotation angles in degrees used for apparent resistivities.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Data block containing a set of rotation angles in degrees used for apparent resistivities.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOXX</attrlabl>
+        <attrdef>Magnitude of apparent resistivity (ohm-m) computed from Zxx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Magnitude of apparent resistivity (ohm-m) computed from Zxx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSXX</attrlabl>
+        <attrdef>Phase angle of apparent resistivity (deg) computed from Zxx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase angle of apparent resistivity (deg) computed from Zxx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOXX.ERR</attrlabl>
+        <attrdef>Log10 error bar (in decades) associated with Rhoxx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Log10 error bar (in decades) associated with Rhoxx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSXX.ERR</attrlabl>
+        <attrdef>Error bar (in degrees) associated with  Phsxx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Error bar (in degrees) associated with  Phsxx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOXY</attrlabl>
+        <attrdef>Magnitude of apparent resistivity (ohm-m) computed from Zxy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Magnitude of apparent resistivity (ohm-m) computed from Zxy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSXY</attrlabl>
+        <attrdef>Phase angle of apparent resistivity (deg) computed from Zxy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase angle of apparent resistivity (deg) computed from Zxy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOXY.ERR</attrlabl>
+        <attrdef>Log10 error bar (in decades) associated with Rhoxy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Log10 error bar (in decades) associated with Rhoxy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSXY.ERR</attrlabl>
+        <attrdef>Error bar (in degrees) associated with  Phsxy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Error bar (in degrees) associated with  Phsxy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOYX</attrlabl>
+        <attrdef>Magnitude of apparent resistivity (ohm-m) computed from Zyx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Magnitude of apparent resistivity (ohm-m) computed from Zyx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSYX</attrlabl>
+        <attrdef>Phase angle of apparent resistivity (deg) computed from Zyx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase angle of apparent resistivity (deg) computed from Zyx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOYX.ERR</attrlabl>
+        <attrdef>Log10 error bar (in decades) associated with Rhoyx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Log10 error bar (in decades) associated with Rhoyx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSYX.ERR</attrlabl>
+        <attrdef>Error bar (in degrees) associated with  Phsyx</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Error bar (in degrees) associated with  Phsyx</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOYY</attrlabl>
+        <attrdef>Magnitude of apparent resistivity (ohm-m) computed from Zyy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Magnitude of apparent resistivity (ohm-m) computed from Zyy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSYY</attrlabl>
+        <attrdef>Phase angle of apparent resistivity (deg) computed from Zyy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase angle of apparent resistivity (deg) computed from Zyy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RHOYY.ERR</attrlabl>
+        <attrdef>Log10 error bar (in decades) associated with Rhoyy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Log10 error bar (in decades) associated with Rhoyy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHSYY.ERR</attrlabl>
+        <attrdef>Error bar (in degrees) associated with  Phsyy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Error bar (in degrees) associated with  Phsyy</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIPMAG</attrlabl>
+        <attrdef>Magnitude of total tipper</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Magnitude of total tipper</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIPPHS</attrlabl>
+        <attrdef>Phase angle (deg) of total tipper</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Phase angle (deg) of total tipper</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIPMAG.ERR</attrlabl>
+        <attrdef>Error bar associated with TIPMAG</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Error bar associated with TIPMAG</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIPPHS.ERR</attrlabl>
+        <attrdef>Error bar (in degrees) associated with TIPPHS</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Error bar (in degrees) associated with TIPPHS</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZSTRIKE</attrlabl>
+        <attrdef>Impedance strike angle (deg) computed from the impedance tensor Z</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Impedance strike angle (deg) computed from the impedance tensor Z</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZSKEW</attrlabl>
+        <attrdef>Impedance skew computed from the impedance tensor Z</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Impedance skew computed from the impedance tensor Z</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TSTRIKE</attrlabl>
+        <attrdef>Tipper strike angle (deg) computed from the tipper tensor T</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Tipper strike angle (deg) computed from the tipper tensor T</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COH</attrlabl>
+        <attrdef>Ordinary coherency between any two measurements as a function of freq.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Ordinary coherency between any two measurements as a function of freq.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EPREDCOH</attrlabl>
+        <attrdef>Multiple coherency relationship between an E measurement, and a predicted E measurement derived from two H measurements and a tensor impedance Z.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Multiple coherency relationship between an E measurement, and a predicted E measurement derived from two H measurements and a tensor impedance Z.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIGAMP</attrlabl>
+        <attrdef>Signal amplitude (or power) spectra for a measurement as a function of frequency.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Signal amplitude (or power) spectra for a measurement as a function of frequency.</udom>
+				</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIGNOISE</attrlabl>
+        <attrdef>Signal-to-noise ratio for a measurement as a function of frequency.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv><udom>Signal-to-noise ratio for a measurement as a function of frequency.</udom>
+				</attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M1.TS1</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M2.TS1</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M1.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M2.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M3.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M4.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M5.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M6.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M7.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M8.TS2</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M1.TS3</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M2.TS3</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M3.TS3</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M4.TS3</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Binary File TU01M5.TS3</enttypl>
+        <enttypd>Raw Time Series Binary Data File. The header information for this file contains field notes including survey identifier, personnel, date/time, weather, indication of a remote MT site, additional comments and sensor configuration for the electric and magnetic field channels.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Data Value</attrlabl>
+        <attrdef>Binary Data Value</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Binary Data Value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_High_01.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_High_02.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Low_01.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Low_02.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Low_03.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Low_04.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Low_05.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_01.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_02.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_03.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_04.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_05.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_06.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_07.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Text File USA-Utah-Tooele-2003-MT01-TS_Mid_08.txt</enttypl>
+        <enttypd>Header file in ASCII text format for raw binary time series files</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Header Information</attrlabl>
+        <attrdef>Header description and settings for time series binary content</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Header description and settings for time series binary content</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>MT/EMAP Data Interchange Standard, Revision 1.0, Dec 1987, David E. Wight. This standard was never published in Geophysics.</eaover>
+      <eadetcit>For more information on the EDI data format: Wight, D.E., 1988, MT/EMAP Data Interchange Standard, Technical standards committee report, Society of Exploration Geophysicists, isbn=9780931830617, http://www.seg.org/documents/10161/77915/seg_mt_emap_1987.pdf</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Digital_Transfer_Option Online_Option</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>{metd}</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Philip Brown</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geophysicist</cntpos>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Mail Stop 964, West 6th Ave. and Kipling St., DFC Bldg. 20</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225-0046</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-236-1310</cntvoice>
+        <cntemail>pbrown@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
